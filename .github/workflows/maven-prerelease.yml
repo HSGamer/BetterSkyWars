@@ -1,8 +1,8 @@
-name: Build & Release
+name: Build & Prerelease
 
 on:
   push:
-    tags-ignore: [ '*-SNAPSHOT' ]
+    tags: [ '*-SNAPSHOT' ]
 
 jobs:
   build:
@@ -37,4 +37,4 @@ jobs:
           fail_on_unmatched_files: true
           files: "./target/BetterSkyWars*.jar"
           draft: false
-          prerelease: false
+          prerelease: true
