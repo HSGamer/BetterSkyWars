@@ -1,0 +1,8 @@
+name: BetterSkyWars
+version: ${project.version}
+description: ${project.description}
+main: io.github.underthinker.betterskywars.BetterSkyWarsPlugin
+api-version: 1.13
+authors:
+  - HSGamer
+  - K4zoku
