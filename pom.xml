@@ -10,7 +10,7 @@
 
     <name>BetterSkyWars</name>
     <description>
-        BetterSkyWars is a plugin for Bukkit that adds a lot of features to SkyWars.
+        BetterSkyWars is a plugin for Spigot that adds a lot of features to SkyWars.
     </description>
 
     <properties>
