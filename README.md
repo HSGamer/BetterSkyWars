@@ -3,6 +3,9 @@
     <a href="#">
         <img alt="Development" src="https://img.shields.io/badge/Development-WIP-FFAA33?style=for-the-badge">
     </a>
+    <a href="https://github.com/Underthinker/BetterSkyWars/actions/workflows/maven.yml">
+        <img alt="Workflow Status" src="https://img.shields.io/github/workflow/status/Underthinker/BetterSkyWars/Build & Upload?style=for-the-badge">
+    </a>
     <a href="LICENSE">
         <img alt="License" src="https://img.shields.io/github/license/Underthinker/BetterSkyWars?style=for-the-badge">
     </a>
