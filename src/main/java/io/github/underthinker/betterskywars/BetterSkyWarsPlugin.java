@@ -1,7 +1,7 @@
 package io.github.underthinker.betterskywars;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import me.hsgamer.hscore.bukkit.baseplugin.BasePlugin;
 
-public class BetterSkyWarsPlugin extends JavaPlugin {
+public class BetterSkyWarsPlugin extends BasePlugin {
 
 }

@@ -15,6 +15,7 @@
 
     <properties>
         <java.version>11</java.version>
+        <core.version>4.0.0-SNAPSHOT</core.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -88,6 +89,10 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>codemc-repo</id>
+            <url>https://repo.codemc.io/repository/maven-public/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -107,6 +112,63 @@
             <artifactId>spigot-api</artifactId>
             <version>1.12.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- HSCore -->
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-bukkit-baseplugin</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-bukkit-config</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-bukkit-utils</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-bukkit-gui-advanced</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-common</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-config-annotated</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-variable</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-database-driver-mysql</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-database-driver-sqlite</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-expression</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>me.hsgamer</groupId>
+            <artifactId>hscore-collections</artifactId>
+            <version>${core.version}</version>
         </dependency>
     </dependencies>
 </project>
